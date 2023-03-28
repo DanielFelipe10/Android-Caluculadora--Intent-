@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaperm"
+    android:tileMode="repeat"
+    android:visibility="visible"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="337dp"
+        android:layout_height="104dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/trialmedium"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17pt" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:fontFamily="@font/trialmedium"
+            android:text="@string/description"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="7pt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="340dp"
+        android:layout_height="399dp"
+        android:layout_marginBottom="104dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="323dp"
+            android:layout_height="83dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/orange"
+            android:elevation="6dp"
+            android:fontFamily="@font/trialmedium"
+            android:textColor="@color/white"
+            android:text="@string/sumar"
+            android:textSize="8pt"/>
+
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="323dp"
+            android:layout_height="85dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/blue"
+            android:elevation="6dp"
+            android:fontFamily="@font/trialmedium"
+            android:textColor="@color/white"
+            android:text="@string/restar"
+            android:textSize="8pt"/>
+
+        <Button
+            android:id="@+id/mult"
+            android:layout_width="323dp"
+            android:layout_height="85dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:elevation="6dp"
+            android:fontFamily="@font/trialmedium"
+            android:textColor="@color/white"
+            android:text="@string/mult"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="323dp"
+            android:layout_height="85dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/green"
+            android:elevation="6dp"
+            android:fontFamily="@font/trialmedium"
+            android:textColor="@color/white"
+            android:text="@string/dividir"
+            android:textSize="8pt" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

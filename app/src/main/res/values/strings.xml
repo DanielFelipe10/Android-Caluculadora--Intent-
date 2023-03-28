@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="title">CALCULADORA</string>
+    <string name="description">Seleccione la operación que desea realizar</string>
+
+    <string name="sumar">SUMAR</string>
+    <string name="restar">RESTAR</string>
+    <string name="mult">MULTIPLICAR</string>
+    <string name="dividir">DIVIDIR</string>
+
+    <string name="description_2">Ingrese los números</string>
+    <string name="realizar">Realizar</string>
+
+</resources>
