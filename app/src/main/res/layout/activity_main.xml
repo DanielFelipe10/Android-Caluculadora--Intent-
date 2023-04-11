@@ -44,9 +44,9 @@
 
     <LinearLayout
         android:id="@+id/tableLayout"
-        android:layout_width="340dp"
-        android:layout_height="399dp"
-        android:layout_marginBottom="104dp"
+        android:layout_width="344dp"
+        android:layout_height="480dp"
+        android:layout_marginBottom="76dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,9 +62,9 @@
             android:backgroundTint="@color/orange"
             android:elevation="6dp"
             android:fontFamily="@font/trialmedium"
-            android:textColor="@color/white"
             android:text="@string/sumar"
-            android:textSize="8pt"/>
+            android:textColor="@color/white"
+            android:textSize="8pt" />
 
         <Button
             android:id="@+id/resta"
@@ -74,9 +74,9 @@
             android:backgroundTint="@color/blue"
             android:elevation="6dp"
             android:fontFamily="@font/trialmedium"
-            android:textColor="@color/white"
             android:text="@string/restar"
-            android:textSize="8pt"/>
+            android:textColor="@color/white"
+            android:textSize="8pt" />
 
         <Button
             android:id="@+id/mult"
@@ -86,8 +86,8 @@
             android:backgroundTint="@color/purple_500"
             android:elevation="6dp"
             android:fontFamily="@font/trialmedium"
-            android:textColor="@color/white"
             android:text="@string/mult"
+            android:textColor="@color/white"
             android:textSize="8pt" />
 
         <Button
@@ -98,9 +98,20 @@
             android:backgroundTint="@color/green"
             android:elevation="6dp"
             android:fontFamily="@font/trialmedium"
-            android:textColor="@color/white"
             android:text="@string/dividir"
+            android:textColor="@color/white"
             android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/mapa"
+            android:layout_width="323dp"
+            android:layout_height="63dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/white"
+            android:elevation="6dp"
+            android:fontFamily="@font/trialmedium"
+            android:text="@string/map"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 

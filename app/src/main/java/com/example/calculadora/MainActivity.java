@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button sumar, restar, multiplicar, dividir;
+    Button sumar, restar, multiplicar, dividir, mapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         restar = findViewById(R.id.resta);
         multiplicar = findViewById(R.id.mult);
         dividir = findViewById(R.id.div);
+        mapa = findViewById(R.id.mapa);
 
         //Button SUMAR
         sumar.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +54,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intentDivision = new Intent(MainActivity.this, Dividir.class);
                 startActivity(intentDivision);
+            }
+        });
+
+        //Button MAPA
+        mapa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentMapa = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intentMapa);
             }
         });
     }
